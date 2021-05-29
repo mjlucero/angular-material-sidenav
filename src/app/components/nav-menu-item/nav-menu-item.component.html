@@ -1,0 +1,8 @@
+<mat-expansion-panel [disabled]="!subMenuItem">
+  <mat-expansion-panel-header>
+    <mat-panel-title [style.padding-left]="16 * this.navItemLevel + 'px'">
+      {{ title }}
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <ng-content select="app-nav-menu-item"></ng-content>
+</mat-expansion-panel>

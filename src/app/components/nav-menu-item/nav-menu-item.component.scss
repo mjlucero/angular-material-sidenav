@@ -1,0 +1,26 @@
+.nav-menu-item {
+  .mat-expansion-panel-body {
+    padding: 0 !important;
+  }
+
+  .mat-expansion-panel-header[aria-disabled="true"] {
+    cursor: pointer;
+    color: black;
+  }
+
+  .mat-expansion-panel-header,
+  .mat-expansion-panel-header.mat-expanded {
+    height: 56px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  }
+
+  .mat-expansion-panel .mat-expansion-panel-header.cdk-keyboard-focused,
+  .mat-expansion-panel .mat-expansion-panel-header.cdk-program-focused,
+  .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover {
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  .mat-expansion-panel {
+    box-shadow: none;
+  }
+}
